@@ -1,0 +1,31 @@
+.item {
+  justify-content: space-between;
+  margin: 5px auto;
+  display: flex;
+  color: white;
+  background-color: #B08A69;
+  border-radius: 10px;
+  width: 230px;
+}
+.item .span_div{
+    margin: 5px auto 5px 10px;
+}
+.item .span_div span{
+    font-size: 15px;
+}
+.btns{
+    display: flex;
+    cursor: pointer;
+    margin: 5px 10px 5px auto;
+    padding-left:10px ;
+}
+.btns div{
+    margin-right: 10px;
+}
+.delete_btn:hover{
+color: red;
+}
+.edit_btn:hover{
+color: rgb(151, 255, 5);
+}
+/* #FFFDD3 */
